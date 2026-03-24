@@ -61,7 +61,7 @@
   - Create Support View
   - Create Info View
   - Save DAX Studio Metrics File
-# Phase 9: Executive View**
+# Phase 9: Executive View
   - Importing Market Share Data
   - Configure the Data Model
   - Building Market Share View Visuals
