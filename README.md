@@ -1,9 +1,7 @@
 
 # 📊 Power BI Complete Business Insights 360
 ---
-**[Dashboard Demo](Dashboard_Demo)**  ||  **[Dashboard Screenshots](Dashboard%20Screenshots/)**
 
----
 ## 🌟 Business Context 
 
 AtliQ Hardware is a global consumer goods company specializing in computer hardware and peripherals such as PCs, printers, and accessories. Operating primarily on a **B2B model**, it sells to major retailers including Croma, Best Buy, Staples, Flipkart, and Amazon, while also running its own branded stores (AtliQ E‑store and AtliQ Exclusive) and collaborating with distributors in restricted trade regions. The dashboards in this project simulate these real‑world operations across **Finance, Sales, Marketing, Supply Chain, and Executive functions**.
@@ -92,6 +90,12 @@ This project uses the **AtliQ Hardware datasets (gdb041 and gdb056)** , which ar
 # Executive View  
 
 <img width="1325" height="744" alt="Image" src="https://github.com/user-attachments/assets/a10e9b5a-9db6-4bb9-a9b8-25fade8f5ddf" />
+
+---
+
+## 🎥 Video Demo
+
+Watch separate demonstration for each view of the dashboard :  **[Dashboard Demonstration](Dashboard_Demo)** 
 
 ---
 
