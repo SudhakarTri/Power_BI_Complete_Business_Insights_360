@@ -1,75 +1,82 @@
+## 🚀 Project Implementation  
 
-## Phases of Implementation
--- 
-# Phase 1: Data Wrangling
-  - Loading Data to MySQL Workbench
-  - Connecting MySQL Database to Power BI
-# Phase 2: ETL with Power Query
-  - Creating custom Date Table
-  - Creating Last Sales Month Reference Table
-  - Creating Remaining Forecast Reference Table
-  - Creating a New Table with both Actual & Forecast Data
-  - Calculating Net Invoice Sales based on FY varying Gross Price & Pre-invoice Deductions
-# Phase 3: Data Modelling & Calculated Columns
-  - Normalizing Data in Tables
-  - Creating Table Relationships
-  - Creating fiscal_year table using DAX
-  - Calculated Columns for post_invoice Calculations
-  - Calculated Columns for COGS & Gross Margin Calculations
-  - Optimizing Report File Size
-# Phase 4: Finance View
-  - Creating Measures Table
-  - Creating P & L Measures
-  - Creating P & L Rows Table
-  - Building P&L Matrix visual
-  - Configuring Quarters & YTD/YTG Slicers
-  - Building P&L Performance over Time visual
-  - Building Top Market & Product visuals
-  - Importing Operating Expenses Data
-  - Calculated Columns & Measures for Operational Expenses & Net Profit Calculations
-  - Updating the P&L visual with Operating Expenses and Net Profit
-# Phase 5: Sales View
-  - Building Customer Performance visual
-  - Building Customers GM & NS Plot visual
-  - Building Product Performance visual
-  - Building Unit Economics visual
-# Phase 6: Marketing View
-  - Building Product Performance visual
-  - Building Products GM & NS Plot visual
-  - Building Unit Economics visual
-  - Building Market Performance visual
-# Phase 7: Supply Chain View
-  - Understanding Key Metrics
-  - Creating Supply Chain Measures
-  - Building Supply Chain visuals
-# Phase 8: Designing Effective Dashboard
-  - Building Home View landing page
-  - Upgrading Finance View
-  - Adding Key Elements to Finance Dashboard
-  - Configuring Navigation Bar
-  - Upgrading Supply Chain View
-  - Upgrading Sales View
-  - Upgrading Marketing View
-  - Incorporating Country level NS, GM & NP Target FY 2022 Data in Finance View
-  - Updating Finance View visuals
-  - Creating a Dynamic Switch to toggle between LY and Target benchmarks
-  - Configuring BM instead of LY for other Finance View visuals
-  - Setup Dynamic GM% Parameter Slicer
-  - Configure Toggle Button to switch GM % and NP % in Marketing View Performance Plot visual
-  - Implement custom Tooltip to show NS $ and GM % Trend in Sales View
-  - Fix Data Quality Issues
-  - Create Support View
-  - Create Info View
-  - Save DAX Studio Metrics File
-# Phase 9: Executive View
-  - Importing Market Share Data
-  - Configure the Data Model
-  - Building Market Share View Visuals
-  - Creating the Executive View
-  - Creating Executive KPI Cards
-  - Creating Revenue (NS) by Division & Channel Donut Charts
-  - Creating Key Insights by Sub Zone Matrix visual
-  - Creating Yearly Trend Chart
-  - Creating Market Share Ribbon Chart Visual
-  - Creating Top 5 Customers & Products by Revenue Visuals
+### **Phase 1: Data Wrangling & Integration**  
+- Imported raw datasets into **MySQL Workbench** and established a secure connection with **Power BI**.  
+- Ensured data consistency and integrity across multiple sources (Excel, CSV, SQL).  
+
+**Impact:** Created a unified data foundation for enterprise‑scale analytics.  
+
+---
+
+### **Phase 2: ETL & Data Preparation**  
+- Applied **Power Query transformations** to clean, reshape, and enrich datasets.  
+- Built custom **Date & Forecast tables** to support time‑series analysis.  
+- Engineered calculations for **Net Invoice Sales** incorporating FY pricing and deductions.  
+
+**Impact:** Delivered a reliable analytical layer enabling accurate forecasting and financial planning.  
+
+---
+
+### **Phase 3: Data Modeling & Optimization**  
+- Designed a **Star Schema** with normalized tables and defined relationships.  
+- Implemented **DAX‑based calculated columns** for Post‑Invoice, COGS, and Gross Margin.  
+- Optimized report file size and performance using **DAX Studio metrics**.  
+
+**Impact:** Improved query efficiency and ensured scalability for large datasets.  
+
+---
+
+### **Phase 4: Finance Analytics**  
+- Built a **P&L Matrix** with Quarters, YTD/YTG slicers, and dynamic benchmarks (LY vs Target).  
+- Integrated **Operating Expenses & Net Profit** into financial dashboards.  
+- Developed visuals for **Top Markets, Products, and P&L Trends**.  
+
+**Impact:** Enabled leadership to track profitability, expenses, and growth drivers in real time.  
+
+---
+
+### **Phase 5: Sales Analytics**  
+- Designed dashboards for **Customer & Product performance**.  
+- Built **Unit Economics visuals** and GM vs NS plots.  
+- Added custom tooltips to highlight revenue and margin trends.  
+
+**Impact:** Provided actionable insights into customer profitability and product performance.  
+
+---
+
+### **Phase 6: Marketing Analytics**  
+- Created dashboards for **Market & Product performance**.  
+- Implemented toggles for **GM% vs NP%** comparisons.  
+- Delivered trend analysis visuals for campaign effectiveness.  
+
+**Impact:** Improved visibility into marketing ROI and product positioning.  
+
+---
+
+### **Phase 7: Supply Chain Analytics**  
+- Defined KPIs for **inventory, lead time, and fulfillment rates**.  
+- Built dashboards to monitor operational efficiency and bottlenecks.  
+
+**Impact:** Strengthened supply chain visibility and reduced inefficiencies.  
+
+---
+
+### **Phase 8: Dashboard Design & User Experience**  
+- Developed a **Home View landing page** with intuitive navigation.  
+- Enhanced Finance, Sales, Marketing, and Supply Chain dashboards with interactive elements.  
+- Incorporated **dynamic slicers, benchmark toggles, and parameter switches**.  
+- Added **Support & Info Views** for usability and documentation.  
+
+**Impact:** Delivered a polished, user‑friendly analytics platform for stakeholders.  
+
+---
+
+### **Phase 9: Executive Insights**  
+- Imported and modeled **Market Share data**.  
+- Built **Executive View** with KPI cards, Donut charts, Ribbon charts, and Sub‑Zone insights.  
+- Highlighted **Top 5 Customers & Products** and yearly revenue trends.  
+
+**Impact:** Equipped executives with high‑level strategic insights for decision‑making.  
+
+---
 
